@@ -2,9 +2,9 @@
 function btn() {
   let updatePtag = document.querySelector('#status');
   let head = document.createElement("h1");
-  updatePtag.innerText = "Entered Metaverse";
   head.innerHTML = updatePtag.innerHTML;
   head.id = updatePtag.id;
+  head.innerText = "Entered Metaverse";
   updatePtag.parentNode.replaceChild(head, updatePtag);
   console.log(updatePtag);
 }
