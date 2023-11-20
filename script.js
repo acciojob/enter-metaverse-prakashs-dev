@@ -5,6 +5,7 @@ function btn() {
   head.innerHTML = updatePtag.innerHTML;
   head.id = updatePtag.id;
   head.innerText = "Entered Metaverse";
-  updatePtag.parentNode.replaceChild(head, updatePtag);
+  // updatePtag.parentNode.replaceChild(head, updatePtag);
+  updatePtag.appendChild(head);
   console.log(updatePtag);
 }
